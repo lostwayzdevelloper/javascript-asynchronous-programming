@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <!-- <img src="cool.jpg" id="img" style="display: none;"> -->
+<!--     
+
+<div>
+  <input type="text" id="name" placeholder="enter email" required>
+  <input type="number" id="number" placeholder="enter number">
+  <input type="password" id="password" placeholder="password">
+  <input type="submit" value="submit" onclick="myfunc(event)">
+</div> -->
+
+</body>
+<script>
+    //array creating
+    // var x=[5];
+    // var k=[1];
+    // var z=Math.max(x,k);
+    // document.write("you have to get "+""+z)
+    //this was setting time out
+//     setTimeout(()=>{
+// document.write("getseconds")
+//     },2000)
+//this is setting interval
+// var time=0;
+// setInterval(()=>{
+// time+=2;
+// document.write(time+"getseconds")
+// document.write("<br>")
+
+// },400)
+//this is clear interval
+// var time=0;
+// var timer=setInterval(()=>{
+//     time+=2;
+//     document.getElementById("img");
+//     //document.write("some")
+//     document.write("<br>")
+//     if(time>5){
+      
+//         clearInterval(timer);
+//     }
+    
+// },400)
+              //this is the use of promise
+// var mypromise=new Promise((resolve,reject)=>{
+//     var age=18;
+// if(age>18){
+//     resolve("allowed to drink alchol")
+// }
+// else{
+//     reject("not allowed")
+// }
+   
+// })
+// mypromise.then((message)=>{
+//     console.log("some"+message)
+// }).catch((error)=>{
+//     console.log("error"+""+error)
+// })
+            //promise.all
+// const mypromise1=fetch('https://jsonplaceholder.typicode.com/post/1');
+// const mypromise2=fetch('https://jsonplaceholder.typicode.com/post/1');
+// const mypromise3=fetch('https://jsonplaceholder.typicode.com/post/1');
+// const mypromise4=fetch('https://jsonplaceholder.typicode.com/post/1');
+// Promise.all([
+//     mypromise1,
+//     mypromise2,
+//     mypromise3,
+//     mypromise4
+// ]).then((values)=>{
+//     console.log("there are fetched"+values)
+// })
+// async function fetchdata(){
+//     const res=await fetch('https://facebook.com/users');
+//     const data=await res.json();
+//     (data)
+// }
+// fetchdata()
+// fetch('https://some-api.com/data').then(response=>response.json()).then(data=>{
+//     document.write("those are data"+data)
+// }).catch(error=>{
+//     document.write("you get error"+error)
+// })
+        //this is promise.all
+// const mypromise1=new Promise((resolve,reject)=>{
+//     resolve("act1")
+// })
+
+// const mypromise2=new Promise((resolve,reject)=>{
+//     resolve("act2")
+// })
+
+// const mypromise3=new Promise((resolve,reject)=>{
+//     resolve("act3")
+// })
+
+// const mypromise4=new Promise((resolve,reject)=>{
+//     resolve("act5")
+// })
+// Promise.all([
+//     mypromise1,
+//     mypromise2,
+//     mypromise3,
+//     mypromise4
+// ]).then((message)=>{
+//     console.log("those are all action"+message)
+// })
+        //this is how to create a call back
+        
+        // function callback(parameter){
+        //     setTimeout(()=>{
+        //         var img=document.getElementById("get");
+        //         parameter(img)
+        //     },4000)
+        // }
+        // callback((img)=>{
+        //     console.log("the call is"+img)
+        // })
+        //runtime error
+  //       function call(){
+  //  window.printme();
+  //       }
+     
+  //range error
+//   function range(x){
+// let x=parseFloat(prompt("enter number"));
+// if(!(x>=-5)&& (x<=5)){
+//   throw new RangeError("number is not range")
+// }
+// else{
+//   alert("gaga")
+// }
+//   }
+      //  console.log(decodeURI('https://www.javatpoint.com'))
+      //  console.log(encodeURI('https://www.javatpoint.com'))
+      // try{
+      //   dalert("badman")
+      // }
+      // catch(error){
+      //   console.log('error'+error.message)
+      // }
+      // var x=parseFloat(prompt("enternum").value);
+      
+      //   const mypromise=new Promise((resolve,reject)=>{
+      //     if(x>5){
+      //       resolve("win")
+      //     }
+      //     else{
+      //       reject("fail")
+      //     }
+      //   })
+    
+      // mypromise.then((message)=>{
+      //   document.write("welcome"+message)
+      // }).catch((error)=>{
+      //   document.write("error"+error)
+      // })
+
+      //test for fetching data on computer
+      // fetch('https://facebook.com').then(response=>response.json()).then(data=>{
+      //   document.write("we get cool pic"+data)
+      // }).catch(error=>{
+      //   document.write("the image cant come theres error"+error)
+      // })
+      // function myfunc(event){
+      //   event.preventDefault();
+      //    var name=document.getElementById("name").value;
+      //    var number=document.getElementById("number").value;
+      //    var password=document.getElementById("password").value;
+      //    localStorage.setItem("is name:",name)
+      //    localStorage.setItem("is number:",number)
+      //    localStorage.setItem("is password:",password)
+     
+      //   }
+      // fetch("https://reqres.in/api/user").then(res=>
+      // {
+
+      // } )
+      // .then(data=>console.log(data)).catch(error=>console.log("error"+error))
+
+</script> 
+</html>
